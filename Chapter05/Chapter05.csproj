@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <StartupObject>Chapter05.Program</StartupObject>
+    <LangVersion>7.1</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.DemoUtil" Version="1.1.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.1" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.3.0" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+</Project>

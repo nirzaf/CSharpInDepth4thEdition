@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <StartupObject>Chapter15.Program</StartupObject>
+    <LangVersion>8.0</LangVersion>
+    <NullableContextOptions>enable</NullableContextOptions>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.DemoUtil" Version="1.1.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+  </ItemGroup>
+</Project>
